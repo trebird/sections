@@ -1,0 +1,20 @@
+html {
+  background-color: #eee9de;
+  line-height: 1.5;
+  margin: 1.5rem;
+}
+
+
+
+h1 {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  margin: 0
+}
+
+figure {
+  margin: 0;
+}
+p {
+  font-family: "Lato", sans-serif;
+}
