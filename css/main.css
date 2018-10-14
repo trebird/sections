@@ -5,41 +5,68 @@ html {
   background-color: #eee9de;
 }
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  align-content: center;
+  margin: 1.5em;
+}
+
 main {
   align-content: center;
   display: inline;
 }
 
 section {
-  max-width:25em;
-  padding: 1em, 2em, .4em;
-  margin: 1.5em;
-  vertical-align: center;
+  text-align: center;
 }
 
-h1 {
-  display: inline-block;
-  font-family: "Lato", sans-serif;
+section div {
+  max-width: 25em;
+  padding: 1em 2em .4em;
+  margin: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+div {
+  text-align: left;
+}
+
+div figure {
+  margin: 0;
+  text-align: left;
+}
+
+div img {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+div h2 {
+  display: inline;
+  font-family: Lato, sans-serif;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  color: #333;
 }
 
-figure {
-  margin: 0;
-}
-p {
-  font-family: "Lato", sans-serif;
+div p {
+  display: inline-block;
+  text-align: left;
+  font-family: Lato, sans-serif;
+  color: #333;
 }
 
-a {
-  font-family: "Lato", sans-serif;
+div .btn {
+  display: inline-block;
+  font-family: Lato, sans-serif;
   text-decoration: none;
   box-sizing: border-box;
-  display: inline-block;
   padding: .6em .5em .75em;
   border: 4px solid #666;
   line-height: 1.5;
