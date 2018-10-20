@@ -66,5 +66,6 @@ img {
 
 a:hover {
   background-color: #666;
+  border-color: #666;
   color: #eee9de;
 }
