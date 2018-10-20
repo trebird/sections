@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  margin: 1.5rem;
   background-color: #eee9de;
 }
 
@@ -11,66 +10,53 @@ html {
 
 body {
   align-content: center;
-  margin: 1.5em;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 main {
-  align-content: center;
+  text-align: center;
   display: inline;
 }
 
-section {
-  text-align: center;
+h2 {
+  margin: 0;
 }
 
 section div {
-  max-width: 25em;
-  padding: 1em 2em .4em;
+  padding: 0;
   margin: 1.5em;
-  vertical-align: middle;
-  text-align: center;
-}
-
-div {
-  text-align: left;
-}
-
-div figure {
-  margin: 0;
-  text-align: left;
-}
-
-div img {
-  display: block;
-  width: 100%;
-  text-align: left;
-}
-
-div h2 {
-  display: inline;
-  font-family: Lato, sans-serif;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333;
-}
-
-div p {
+  max-width: 25em;
   display: inline-block;
-  text-align: left;
   font-family: Lato, sans-serif;
+  text-align: left;
   color: #333;
 }
 
-div .btn {
+img {
+  display: block;
+  margin: 1.5rem;
+  width: 100%;
+  max-width: 25em;
+  float: left;
+}
+
+.btn {
   display: inline-block;
   font-family: Lato, sans-serif;
   text-decoration: none;
+  text-align: left;
   box-sizing: border-box;
   padding: .6em .5em .75em;
-  border: 4px solid #666;
+  border: 4px solid #333;
   line-height: 1.5;
-  color: #000;
+  color: #333;
   border-radius: 10px;
   max-width: 25em;
+}
+
+a:hover {
+  background-color: #666;
+  color: #eee9de;
 }
