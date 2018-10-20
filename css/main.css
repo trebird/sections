@@ -29,12 +29,12 @@ section div {
   display: inline-block;
   font-family: Lato, sans-serif;
   text-align: left;
-  color: #000;
+  color: #333;
 }
 
 section h2 {
   margin: 0;
-  color: #000;
+  color: #333;
 }
 
 section p {
