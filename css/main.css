@@ -16,20 +16,24 @@ body {
 }
 
 main {
-  align-content: center;
   text-align: center;
   display: inline-block;
   margin: 1.5em;
 }
 
 section div {
-  padding: 0;
-  margin: 1.5em;
-  margin-right: 0;
   display: inline-block;
   font-family: Lato, sans-serif;
   text-align: left;
   color: #333;
+}
+
+div {
+  padding: 1em;
+}
+
+.content {
+  padding: 0;
 }
 
 section h2 {
@@ -43,11 +47,7 @@ section p {
 
 img {
   display: block;
-  align-content: center;
-  margin: 1.5em;
   width: 100%;
-  max-width: 25em;
-  float: left;
 }
 
 .btn {
