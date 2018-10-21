@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  align-content: center;
   margin: 0;
   display: inline-block;
   vertical-align: middle;
@@ -26,6 +25,7 @@ section div {
   font-family: Lato, sans-serif;
   text-align: left;
   color: #333;
+  max-width: 25em;
 }
 
 div {
